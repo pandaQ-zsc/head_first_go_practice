@@ -42,19 +42,11 @@ func main() {
 	}
 	fmt.Println(input2)
 
-	//reader:= bufio.NewReader(os.Stdin)
-	//input,err:= reader.ReadString('\n')
-	// 如果错误不为空， 也就是有错误
-	//if err!= nil {
-	//	log.Fatal(err)
-	//}else {
-	//fmt.Println(input)
-	//}
+	fmt.Println("--------------------------------")
 
 	//fmt.Println(reflect.TypeOf(input))
 	//grade,err := strconv.ParseFloat(input,64)
 	//fmt.Println(reflect.TypeOf(grade))
 	//fmt.Println(grade)
 	//fmt.Println("ssss")
-
 }
