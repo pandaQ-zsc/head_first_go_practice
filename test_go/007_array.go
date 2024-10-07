@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 var counter [3]int
 
 func average(arr []float64) float64 {
@@ -13,8 +11,9 @@ func average(arr []float64) float64 {
 }
 
 func main() {
-	var arr1 = []float64{1, 2, 3, 4}
-	fmt.Println(average(arr1))
+
+	//var arr1 = []float64{1, 2, 3, 4}
+	//fmt.Println(average(arr1))
 
 	//	counter[0] = 1
 	//	counter[1] = 2

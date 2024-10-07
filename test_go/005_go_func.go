@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// GetFloat string -> float64
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')

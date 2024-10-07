@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/headfirstgo/greeting"
 )
 
 func main() {
+	greeting.Hello()
 	var originalCount int = 10
 	var eatenCount int = 4
 

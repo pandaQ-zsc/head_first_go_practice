@@ -20,7 +20,15 @@ func negate(myBoolean *bool) {
 	*myBoolean = !*myBoolean
 	//fmt.Println(myBoolean)
 }
+func double4(number *int) {
+	*number *= 2
+}
+
 func main() {
+	number := 5
+	double4(&number)
+	fmt.Println(number)
+	fmt.Println("-------------------")
 	truth := true
 	negate(&truth)
 	fmt.Println(truth)
