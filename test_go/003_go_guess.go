@@ -44,7 +44,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	for guessess := 0; guessess < 365; guessess++ {
 		fmt.Println("Guessess:", guessess)
 
