@@ -7,6 +7,7 @@ type myInterface interface {
 	methodWithParameter(float64)
 	methodWithReturnValue() string
 }
+
 type MyType int
 
 func (m MyType) MethodWithReturnValue() string {
